@@ -1,7 +1,30 @@
 aid: zephyr-fusion
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zephyr-fusion.png
 name: Zephyr Fusion
-description: Zephyr Fusion is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Zephyr Fusion is a Y Combinator (Fall 2025) company building the first in-orbit
+  fusion power source: a compact, megawatt-class magnetic-confinement fusion reactor
+  designed to enable large-scale industry in space at a fraction of the cost of
+  equivalent solar. Founded by former Lawrence Livermore and Oak Ridge National
+  Laboratory physicists, the company targets microgravity manufacturing, orbital
+  data centers, defense, propulsion, and human habitation in space, exploiting the
+  vacuum of space to accommodate larger plasma regions than Earth-based reactors.
+  As an early-stage deep-tech hardware company, Zephyr Fusion currently publishes no
+  public API, developer platform, SDK, or machine-readable specification; this
+  profile captures its identity in the API Evangelist network. An enrichment pass on
+  2026-07-21 confirmed no API surface exists (no api./docs./developer. hosts resolve;
+  no /developers, /docs, or /.well-known discovery surface is published).
 url: https://raw.githubusercontent.com/api-evangelist/zephyr-fusion/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +32,32 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-yc-batch: Fall 2025
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Fusion Energy
+- Nuclear Fusion
+- Space
+- Deep Tech
+- Clean Energy
+- Hardware
+- Y Combinator
 apis: []
+common:
+- type: Website
+  url: https://www.zephyrfusion.com/
+- type: Company
+  url: https://www.ycombinator.com/companies/zephyr-fusion
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
